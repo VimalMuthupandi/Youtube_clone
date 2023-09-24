@@ -1,0 +1,128 @@
+.header{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 213, 213); 
+    z-index: 1000;
+    box-shadow: 0 0 5px rgba(0, 0,0, 0.5);
+}
+.leftsection{ 
+    display: flex;
+    align-items: center;
+    
+}
+.hamburger-logo{
+    height: 30px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.yt-logo{
+    height: 72px;
+}
+.middlesection{
+    
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 75px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    flex: 1;
+    height: 36px;
+    width: 60px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.search::placeholder{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(244, 239, 239);
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.search-button-icon{
+    height: 20px;
+    width: 20px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    border-color: rgb(241, 235, 235);
+    margin-right: 10px;
+    
+}
+.voice-button-icon{
+    height: 20px;
+    width: 22px;
+    margin-top: 5px;
+    
+}
+.rightsection{
+    flex-shrink: 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+.upload-icon{
+    width: 40px;
+    height: 35px;
+}
+
+.notifications{
+    width: 40px;
+    height: 30px;
+
+}
+.notification-bar{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+   border-radius: 10px;
+    background-color: rgb(208, 0, 0);
+    color: white;
+    
+   
+}
+
+.mychannel{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
